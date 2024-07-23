@@ -45,12 +45,13 @@ Database: Fake database
   - Delete doctor
     
     
-     ```sh
-   git clone https://github.com/JuniorReisx/linkedin-app.git
+     ```bash
+   git clone https://github.com/JuniorReisx/Hospital-System.git
 
    npm install
    
-   npm run dev    
-![Captura de Tela (459)](https://github.com/user-attachments/assets/889672bc-0435-4f79-9a80-9861abf5e076)
+   npm run dev
+  
+  ![Captura de Tela (459)](https://github.com/user-attachments/assets/889672bc-0435-4f79-9a80-9861abf5e076)
 
 
