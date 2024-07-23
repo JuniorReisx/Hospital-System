@@ -44,8 +44,9 @@ Database: Fake database
   - Update doctor information
   - Delete doctor
     
-   ```sh
-   git clone https://github.com/seu-usuario/linkedin-app.git
+    
+     ```sh
+   git clone https://github.com/JuniorReisx/linkedin-app.git
 
    npm install
    
