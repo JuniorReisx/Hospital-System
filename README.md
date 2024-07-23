@@ -45,7 +45,7 @@ Database: Fake database
   - Delete doctor
     
     
-     ```bash
+ ```bash
    git clone https://github.com/JuniorReisx/Hospital-System.git
 
    npm install
