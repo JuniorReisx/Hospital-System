@@ -34,8 +34,8 @@ This system aims to improve hospital management by making it more efficient, acc
 
 ## Technologies Used
 Frontend: HTML, CSS, JavaScript  
-Backend: Node.js, Express.js  
-Database: Fake database
+Backend: Node.js, Express.js e nodemon 
+Database: Mocado Database
 
 ## Features
 - Patients
