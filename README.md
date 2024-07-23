@@ -1,6 +1,8 @@
 # Hospital System
 
 This project is a hospital system developed with a fullstack architecture. It allows listing and managing information about patients and doctors.
+## Aviso
+If you write anything on it it will be saved for other users to see, but when you press the delete button it will be deleted for all users
 
 ### Hosted
 
