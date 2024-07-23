@@ -43,5 +43,10 @@ Database: Fake database
   - Add new doctor
   - Update doctor information
   - Delete doctor
+    
+   ```sh
+   git clone https://github.com/seu-usuario/linkedin-app.git
+    
+![Captura de Tela (459)](https://github.com/user-attachments/assets/889672bc-0435-4f79-9a80-9861abf5e076)
 
-![image](https://github.com/user-attachments/assets/584354f1-c6c3-4274-94ac-fa38b0f2e473)
+
