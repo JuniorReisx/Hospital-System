@@ -1,7 +1,7 @@
 import { patients } from "../../database/patient.database.js"
 
 export const updatePatients = (req, res) => {
-    const idParameter = Number(req.params.id)
+    const idParameter = req.params.id
     const { name, age, gender, phoneNumber, sickness } = req.body
 
     const patient = patients.find((patient) => patient.id == idParameter)

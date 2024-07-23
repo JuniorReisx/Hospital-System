@@ -1,7 +1,7 @@
 import { doctors } from "../../database/doctor.database.js"
 
 export const updateDoctors = (req, res) => {
-    const idParameter = Number(req.params.id)
+    const idParameter = req.params.id
     const { name, age, gender, phoneNumber, cpf, specialty } = req.body
 
     const doctor = doctors.find((doctor) => doctor.id == idParameter)

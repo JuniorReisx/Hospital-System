@@ -1,7 +1,7 @@
 import { patients } from "../../database/patient.database.js"
 
 export const deletePatients = (req, res) => {
-    const idParameter = Number(req.params.id)
+    const idParameter = req.params.id
 
     const patientDelete = patients.findIndex((patient) => patient.id == idParameter)
 
