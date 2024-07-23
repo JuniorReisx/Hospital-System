@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospital System</title>
+    <link rel="stylesheet" href="./css/patient.style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Hospital System</h1>
+        <a href="./doctor.html"><p>Doctor</p></a>
+      </nav>
+    </header>
+    <main>
+      <section id="sectionPatient">
+        <div id="patient-form">
+          <h2>Patient</h2>
+          <form id="form">
+            <input type="text" id="name" placeholder="Name" />
+            <input type="number" id="age" placeholder="Age" />
+            <input type="text" id="gender" placeholder="Gender" />
+            <input type="text" id="phoneNumber" placeholder="Phone Number" />
+            <input type="text" id="sickness" placeholder="Sickness" />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+        <div id="patients-list">
+          <h2>Patients List</h2>
+          <ul id="patients"></ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/patient.js"></script>
+  </body>
+</html>
